@@ -1,0 +1,77 @@
+body {
+  background-image: url(seo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+}
+.img {
+  position: fixed;
+  margin-top: -150px;
+  margin-left: -30px;
+
+  position: fixed;
+}
+.all {
+  color: rgb(244, 242, 242);
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  border: 3px solid rgb(233, 229, 229);
+  padding: 50px 20px;
+  margin: 17vh 78vh;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 17px;
+  align-items: center;
+  box-shadow: rgb(9, 8, 8) 15px 12px 10px;
+  letter-spacing: 0px;
+}
+.coming {
+  color: rgb(228, 226, 226);
+}
+.form {
+  border: 2px solid rgb(231, 228, 228);
+  color: rgb(235, 234, 234);
+  text-align: center;
+  padding: 0 0px 25px 0px;
+  border-radius: 10px;
+  box-shadow: rgb(4, 3, 3) 4px 4px 10px;
+}
+input[type="email"] {
+  width: 30vh;
+  padding: 7px 2px;
+  background-color: rgb(245, 235, 235);
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 50px;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 2px solid rgb(13, 2, 2);
+  box-shadow: rgb(4, 3, 3) 4px 4px 10px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 5px 2px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: rgb(4, 3, 3) 4px 4px 10px;
+}
+input[type="submit"]:hover {
+  background-color: rgb(51, 172, 233);
+  color: rgb(12, 11, 11);
+  border-bottom: 2px solid black;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  padding: 7px 3px;
+  border: 1px solid rgb(255, 4, 4);
+  border-radius: 7px;
+}
+input[type="email"]:hover {
+  width: 90%;
+  padding: 9px 3px;
+  border: 1px solid rgb(255, 4, 4);
+  border-radius: 7px;
+  transition: 0.5s;
+}
